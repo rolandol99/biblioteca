@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4; /* Agrega un fondo de color suave */
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenido */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente */
+}
+
+.column {
+    flex: 1;
+    max-width: 700px; /* Ancho máximo de la columna */
+    margin: 10px;
+    text-align: center; /* Centra horizontalmente */
+}
+
+
+h1 {
+    font-size: 28px; /* Tamaño de fuente más grande */
+    margin-bottom: 20px; /* Espacio inferior para separar del contenido */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+    color: blue; /* Cambia el color del texto a azul */
+}
+
+p {
+    font-size: 18px; /* Tamaño de fuente del párrafo */
+    margin-bottom: 10px; /* Espacio inferior entre párrafos */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+p {
+    color: black;
+}
+h6 {
+    color: red;
+    font-weight: bold;
+}
+
+button, a.btn {
+    margin-top: 10px;
+}
